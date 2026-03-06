@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Khattas With Mitthas</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:Poppins;
+background:#3B1F0B;
+color:#FFF5E1;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#2b1509;
+}
+
+nav h1{
+color:#D4731A;
+font-weight:800;
+}
+
+nav a{
+color:#FFF5E1;
+text-decoration:none;
+margin-left:20px;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px 8%;
+flex-wrap:wrap;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h2{
+font-size:60px;
+color:#D4731A;
+}
+
+.hero button{
+background:#D4731A;
+border:none;
+padding:14px 30px;
+border-radius:30px;
+color:white;
+font-size:18px;
+cursor:pointer;
+}
+
+.hero img{
+width:420px;
+border-radius:20px;
+}
+
+/* MENU */
+
+.menu{
+padding:80px 8%;
+text-align:center;
+}
+
+.menu h2{
+font-size:42px;
+color:#D4731A;
+margin-bottom:50px;
+}
+
+.menu-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#2a1407;
+border-radius:15px;
+width:300px;
+overflow:hidden;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card-body{
+padding:20px;
+}
+
+.price{
+font-size:22px;
+color:#D4731A;
+font-weight:700;
+}
+
+/* ABOUT */
+
+.about{
+padding:80px 12%;
+text-align:center;
+}
+
+/* CONTACT */
+
+.contact{
+background:#2b1509;
+padding:80px 12%;
+text-align:center;
+}
+
+.contact form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact input,
+.contact textarea{
+padding:12px;
+border:none;
+border-radius:8px;
+}
+
+.contact button{
+background:#D4731A;
+border:none;
+padding:12px;
+color:white;
+border-radius:20px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#1c0d05;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<h1>Khattas With Mitthas</h1>
+
+<div>
+<a href="#">Home</a>
+<a href="#">Menu</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h2>Khattas With Mitthas</h2>
+
+<p>
+Desi chatpata flavours that make your mouth water.
+Fresh, nostalgic and full of street-style taste.
+</p>
+
+<button>View Menu</button>
+
+</div>
+
+<img src="imli.png">
+
+</section>
+
+
+<section class="menu">
+
+<h2>Our Special Items</h2>
+
+<div class="menu-container">
+
+<div class="card">
+
+<img src="imli.png">
+
+<div class="card-body">
+
+<h3>Imli Chatpatedar</h3>
+
+<p>Classic tangy tamarind with masala.</p>
+
+<p class="price">₹80</p>
+
+</div>
+</div>
+
+
+<div class="card">
+
+<img src="kaccha-aam.png">
+
+<div class="card-body">
+
+<h3>Kaccha Aam</h3>
+
+<p>Raw mango spicy street flavour.</p>
+
+<p class="price">₹90</p>
+
+</div>
+</div>
+
+
+<div class="card">
+
+<img src="jamun.png">
+
+<div class="card-body">
+
+<h3>Jamun Chatpatedar</h3>
+
+<p>Fresh jamun flavour with chatpata masala.</p>
+
+<p class="price">₹90</p>
+
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="about">
+
+<h2>About Us</h2>
+
+<p>
+Khattas With Mitthas (KM) brings nostalgic desi flavours
+with a modern twist. Every bite is tangy, spicy and full
+of street-style magic.
+</p>
+
+</section>
+
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea rows="4" placeholder="Message"></textarea>
+
+<button>Send</button>
+
+</form>
+
+</section>
+
+
+<footer>
+
+© 2025 Khattas With Mitthas
+
+</footer>
+
+</body>
+</html>
